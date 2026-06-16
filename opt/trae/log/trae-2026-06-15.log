@@ -1,0 +1,175 @@
+2026-06-15 00:13:08.386 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-06-15 00:13:08.434 INFO  [main] c.example.traeapi.TraeApiApplication : Starting TraeApiApplication using Java 21.0.11 with PID 15100 (D:\resources\trae\trae_java\trae_api\trae_api\target\classes started by 马宝 in D:\resources\trae\trae_java\trae_api\trae_api)
+2026-06-15 00:13:08.434 DEBUG [main] c.example.traeapi.TraeApiApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-06-15 00:13:08.434 INFO  [main] c.example.traeapi.TraeApiApplication : The following 1 profile is active: "dev"
+2026-06-15 00:13:10.167 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-15 00:13:10.170 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-06-15 00:13:10.171 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-15 00:13:10.256 INFO  [main] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring embedded WebApplicationContext
+2026-06-15 00:13:10.614 DEBUG [main] c.b.m.core.toolkit.Sequence : Initialization Sequence datacenterId:24 workerId:11
+2026-06-15 00:13:10.870 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f9db84cc-8bbd-429d-a372-fa89f26e5846
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-15 00:13:11.803 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-06-15 00:13:11.856 INFO  [main] c.example.traeapi.TraeApiApplication : Started TraeApiApplication in 4.131 seconds (process running for 4.841)
+2026-06-15 00:13:11.957 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-06-15 00:13:12.216 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68550d86
+2026-06-15 00:13:12.227 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-06-15 00:13:14.061 INFO  [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 00:14:10.246 WARN  [http-nio-8080-exec-2] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 00:14:10.257 WARN  [http-nio-8080-exec-2] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 00:14:10.379 INFO  [http-nio-8080-exec-2] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:14:24.989 INFO  [http-nio-8080-exec-3] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:14:25.171 INFO  [http-nio-8080-exec-3] c.e.t.c.login.LoginController : 用户登录成功 - userId: admin, userName: 管理员, role: A
+2026-06-15 00:28:50.532 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2026-06-15 00:28:50.537 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2026-06-15 00:28:59.176 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-06-15 00:28:59.230 INFO  [main] c.example.traeapi.TraeApiApplication : Starting TraeApiApplication using Java 21.0.11 with PID 25476 (D:\resources\trae\trae_java\trae_api\trae_api\target\classes started by 马宝 in D:\resources\trae\trae_java\trae_api\trae_api)
+2026-06-15 00:28:59.231 DEBUG [main] c.example.traeapi.TraeApiApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-06-15 00:28:59.233 INFO  [main] c.example.traeapi.TraeApiApplication : The following 1 profile is active: "dev"
+2026-06-15 00:29:01.116 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-15 00:29:01.118 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-06-15 00:29:01.119 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-15 00:29:01.194 INFO  [main] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring embedded WebApplicationContext
+2026-06-15 00:29:01.526 DEBUG [main] c.b.m.core.toolkit.Sequence : Initialization Sequence datacenterId:24 workerId:14
+2026-06-15 00:29:01.797 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 36548656-130c-4d5a-a867-a7b4ce59a5f6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-15 00:29:02.604 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-06-15 00:29:02.658 INFO  [main] c.example.traeapi.TraeApiApplication : Started TraeApiApplication in 4.144 seconds (process running for 4.803)
+2026-06-15 00:29:02.754 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-06-15 00:29:02.987 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48144f1a
+2026-06-15 00:29:02.998 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-06-15 00:29:05.157 INFO  [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 00:29:07.694 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 00:29:07.706 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 00:29:07.834 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:29:08.071 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录成功 - userId: admin, userName: 管理员, role: A
+2026-06-15 00:33:51.039 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-06-15 00:33:51.106 INFO  [main] c.example.traeapi.TraeApiApplication : Starting TraeApiApplication using Java 21.0.11 with PID 12108 (D:\resources\trae\trae_java\trae_api\trae_api\target\classes started by 马宝 in D:\resources\trae\trae_java\trae_api\trae_api)
+2026-06-15 00:33:51.107 DEBUG [main] c.example.traeapi.TraeApiApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-06-15 00:33:51.108 INFO  [main] c.example.traeapi.TraeApiApplication : The following 1 profile is active: "dev"
+2026-06-15 00:33:52.304 DEBUG [main] o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 00:33:52.836 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-15 00:33:52.839 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-06-15 00:33:52.840 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-15 00:33:52.915 INFO  [main] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring embedded WebApplicationContext
+2026-06-15 00:33:53.203 DEBUG [main] o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 00:33:53.222 DEBUG [main] c.b.m.core.toolkit.Sequence : Initialization Sequence datacenterId:24 workerId:22
+2026-06-15 00:33:53.465 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 271532f8-2844-4bad-8d0f-bc74fd72984b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-15 00:33:54.321 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-06-15 00:33:54.376 INFO  [main] c.example.traeapi.TraeApiApplication : Started TraeApiApplication in 3.999 seconds (process running for 4.692)
+2026-06-15 00:33:54.475 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-06-15 00:33:54.706 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73d8c8d7
+2026-06-15 00:33:54.720 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-06-15 00:33:57.030 INFO  [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 00:33:58.946 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 00:33:58.957 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 00:33:59.091 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:33:59.330 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录成功 - userId: admin, userName: 管理员, role: A
+2026-06-15 00:34:08.727 INFO  [http-nio-8080-exec-3] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:34:15.532 INFO  [http-nio-8080-exec-4] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:34:26.347 INFO  [http-nio-8080-exec-5] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:34:43.361 INFO  [http-nio-8080-exec-6] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 00:35:31.542 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2026-06-15 00:35:31.547 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2026-06-15 22:14:31.909 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-06-15 22:14:31.955 INFO  [main] c.example.traeapi.TraeApiApplication : Starting TraeApiApplication using Java 21.0.11 with PID 17816 (D:\resources\trae\trae_java\trae_api\trae_api\target\classes started by 马宝 in D:\resources\trae\trae_java\trae_api\trae_api)
+2026-06-15 22:14:31.956 DEBUG [main] c.example.traeapi.TraeApiApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-06-15 22:14:31.956 INFO  [main] c.example.traeapi.TraeApiApplication : The following 1 profile is active: "dev"
+2026-06-15 22:14:33.356 DEBUG [main] o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:14:34.217 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-15 22:14:34.220 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-06-15 22:14:34.220 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-15 22:14:34.283 INFO  [main] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring embedded WebApplicationContext
+2026-06-15 22:14:34.776 DEBUG [main] o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:14:34.824 DEBUG [main] c.b.m.core.toolkit.Sequence : Initialization Sequence datacenterId:24 workerId:21
+2026-06-15 22:14:35.193 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c48486ea-0ddc-46f4-acda-e66e369cbe1c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-15 22:14:36.249 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-06-15 22:14:36.301 INFO  [main] c.example.traeapi.TraeApiApplication : Started TraeApiApplication in 4.994 seconds (process running for 5.609)
+2026-06-15 22:14:36.427 INFO  [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 22:14:36.433 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-06-15 22:14:36.844 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@699bb304
+2026-06-15 22:14:36.855 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-06-15 22:14:53.931 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 22:14:53.941 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 22:14:54.130 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 22:15:13.883 INFO  [http-nio-8080-exec-3] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 22:15:14.077 INFO  [http-nio-8080-exec-3] c.e.t.s.login.impl.LoginServiceImpl : 用户登录成功 - userId: admin, userName: 管理员, role: A
+2026-06-15 22:15:14.107 INFO  [http-nio-8080-exec-3] c.e.t.c.login.LoginController : 用户登录成功 - userId: admin, userName: 管理员, role: A
+2026-06-15 22:18:16.109 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-06-15 22:18:16.158 INFO  [main] c.example.traeapi.TraeApiApplication : Starting TraeApiApplication using Java 21.0.11 with PID 22552 (D:\resources\trae\trae_java\trae_api\trae_api\target\classes started by 马宝 in D:\resources\trae\trae_java\trae_api\trae_api)
+2026-06-15 22:18:16.159 DEBUG [main] c.example.traeapi.TraeApiApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-06-15 22:18:16.160 INFO  [main] c.example.traeapi.TraeApiApplication : The following 1 profile is active: "dev"
+2026-06-15 22:18:16.940 DEBUG [main] c.b.m.a.MybatisPlusAutoConfiguration : Searching for mappers annotated with @Mapper
+2026-06-15 22:18:16.954 DEBUG [main] c.b.m.a.MybatisPlusAutoConfiguration : Using auto-configuration base package 'com.example.traeapi'
+2026-06-15 22:18:17.259 DEBUG [main] o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:18:17.786 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-15 22:18:17.787 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-06-15 22:18:17.788 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-15 22:18:17.854 INFO  [main] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring embedded WebApplicationContext
+2026-06-15 22:18:18.143 DEBUG [main] o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:18:18.160 DEBUG [main] c.b.m.e.s.MybatisSqlSessionFactoryBean : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5f61e002'
+2026-06-15 22:18:18.164 DEBUG [main] c.b.m.e.s.MybatisSqlSessionFactoryBean : Property 'mapperLocations' was not specified.
+2026-06-15 22:18:18.168 DEBUG [main] c.b.m.core.toolkit.Sequence : Initialization Sequence datacenterId:24 workerId:16
+2026-06-15 22:18:18.394 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d4f2ce7e-8429-468a-904e-61162977ecfb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-15 22:18:18.902 DEBUG [main] c.b.m.a.MybatisPlusAutoConfiguration : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2026-06-15 22:18:19.142 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-06-15 22:18:19.189 INFO  [main] c.example.traeapi.TraeApiApplication : Started TraeApiApplication in 3.633 seconds (process running for 4.291)
+2026-06-15 22:18:19.316 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-06-15 22:18:19.548 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e63bd6b
+2026-06-15 22:18:19.560 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-06-15 22:18:19.588 DEBUG [main] c.b.m.a.DdlApplicationRunner :   ...  DDL start create  ...  
+2026-06-15 22:18:19.588 DEBUG [main] c.b.m.a.DdlApplicationRunner :   ...  DDL end create  ...  
+2026-06-15 22:18:21.879 INFO  [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 22:18:36.784 WARN  [http-nio-8080-exec-2] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 22:18:36.794 WARN  [http-nio-8080-exec-2] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 22:18:36.913 INFO  [http-nio-8080-exec-2] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 22:18:37.133 INFO  [http-nio-8080-exec-2] c.e.t.s.login.impl.LoginServiceImpl : 用户登录成功 - userId: admin, userName: 管理员, role: 1
+2026-06-15 22:18:37.156 INFO  [http-nio-8080-exec-2] c.e.t.c.login.LoginController : 用户登录成功 - userId: admin, userName: 管理员, role: 1
+2026-06-15 22:20:23.261 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-06-15 22:20:23.304 INFO  [main] c.example.traeapi.TraeApiApplication : Starting TraeApiApplication using Java 21.0.11 with PID 10764 (D:\resources\trae\trae_java\trae_api\trae_api\target\classes started by 马宝 in D:\resources\trae\trae_java\trae_api\trae_api)
+2026-06-15 22:20:23.305 DEBUG [main] c.example.traeapi.TraeApiApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-06-15 22:20:23.305 INFO  [main] c.example.traeapi.TraeApiApplication : The following 1 profile is active: "dev"
+2026-06-15 22:20:24.915 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-15 22:20:24.918 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-06-15 22:20:24.918 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-15 22:20:24.990 INFO  [main] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring embedded WebApplicationContext
+2026-06-15 22:20:25.557 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 848f12ea-7af8-4b11-9750-4e6f4dc10c6e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-15 22:20:26.327 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-06-15 22:20:26.373 INFO  [main] c.example.traeapi.TraeApiApplication : Started TraeApiApplication in 3.707 seconds (process running for 4.35)
+2026-06-15 22:20:26.463 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-06-15 22:20:26.680 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43fbc2bf
+2026-06-15 22:20:26.690 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-06-15 22:20:28.987 INFO  [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[localhost].[/trae-api] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 22:20:31.189 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 22:20:31.200 WARN  [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector : Cache miss for REQUEST dispatch to '/trae-api/api/login/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-15 22:20:31.316 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录请求 - userId: admin
+2026-06-15 22:20:31.503 INFO  [http-nio-8080-exec-1] c.e.t.s.login.impl.LoginServiceImpl : 用户登录成功 - userId: admin, userName: 管理员, role: 1
+2026-06-15 22:20:31.526 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录成功 - userId: admin, userName: 管理员, role: 1

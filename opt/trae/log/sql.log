@@ -1,0 +1,15 @@
+2026-06-15 22:18:16.940 [main] DEBUG c.b.m.a.MybatisPlusAutoConfiguration : Searching for mappers annotated with @Mapper
+2026-06-15 22:18:16.954 [main] DEBUG c.b.m.a.MybatisPlusAutoConfiguration : Using auto-configuration base package 'com.example.traeapi'
+2026-06-15 22:18:17.259 [main] DEBUG o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:18:18.143 [main] DEBUG o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:18:18.160 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5f61e002'
+2026-06-15 22:18:18.164 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean : Property 'mapperLocations' was not specified.
+2026-06-15 22:18:18.168 [main] DEBUG c.b.m.core.toolkit.Sequence : Initialization Sequence datacenterId:24 workerId:16
+2026-06-15 22:18:18.902 [main] DEBUG c.b.m.a.MybatisPlusAutoConfiguration : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2026-06-15 22:18:19.588 [main] DEBUG c.b.m.a.DdlApplicationRunner :   ...  DDL start create  ...  
+2026-06-15 22:18:19.588 [main] DEBUG c.b.m.a.DdlApplicationRunner :   ...  DDL end create  ...  
+2026-06-15 22:20:24.371 [main] DEBUG o.apache.ibatis.logging.LogFactory : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2026-06-15 22:20:25.285 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6164e137'
+2026-06-15 22:20:25.287 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean : Property 'mapperLocations' was not specified.
+2026-06-15 22:20:26.748 [main] DEBUG c.b.m.a.DdlApplicationRunner :   ...  DDL start create  ...  
+2026-06-15 22:20:26.749 [main] DEBUG c.b.m.a.DdlApplicationRunner :   ...  DDL end create  ...  

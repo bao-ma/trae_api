@@ -1,0 +1,8 @@
+2026-06-16 00:16:05.154 INFO  [http-nio-8080-exec-1] c.e.t.c.login.LoginController : 用户登录请求 - userId: 123
+2026-06-16 00:32:13.091 INFO  [http-nio-8080-exec-4] c.e.t.c.login.LoginController : 用户登录请求 - userId: dsadas
+2026-06-16 00:32:18.735 INFO  [http-nio-8080-exec-5] c.e.t.c.login.LoginController : 用户登录请求 - userId: user
+2026-06-16 00:34:46.883 INFO  [http-nio-8080-exec-7] c.e.t.c.login.LoginController : 用户登录请求 - userId: user
+2026-06-16 00:34:46.958 INFO  [http-nio-8080-exec-7] c.e.t.s.login.impl.LoginServiceImpl : 用户登录成功 - userId: user, userName: 普通用户, role: 1
+2026-06-16 00:34:46.960 INFO  [http-nio-8080-exec-7] c.e.t.c.login.LoginController : 用户登录成功 - userId: user, userName: 普通用户, role: 1
+2026-06-16 00:35:14.632 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2026-06-16 00:35:14.636 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
